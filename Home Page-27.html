@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+}
+.site{
+    background: linear-gradient(rgba(236, 98, 98, 0.55), rgba(234, 78, 78, 0.55)),url("BG.jpg");
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.leftmenu{
+    width: 20%;
+    line-height: 100Px;
+    float: left;
+}
+.leftmenu h4{
+    padding-left: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    font-family: 'montserrat', sans-serif;
+}
+.rightmenu{
+    width: 80%;
+    height: 100Px;
+    float: right;
+}
+.rightmenu ul{
+    margin-left: 100px;
+}
+ul li{
+    display: inline-block;
+    font-family: 'montserrat', sans-serif ;
+    list-style: none;
+    font-size: 12px;
+    color:rgb(2,2, 9);
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.rightmenu ul li button{
+    border-radius: 10px;
+    color: rgb(16, 14, 14);
+    border: 3px solid skyblue;
+}
+.rightmenu ul li:hover{
+    color: #00ccff;
+}
+.text{
+    width: 60%;
+    height:70%;
+    margin-top:200px ;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(245, 17, 17);
+     position:absolute;
+}
+.text h4{
+    font-size: 14px;
+    font-family: 'open sans', sans-serif;
+}
+.text h1{
+    font-size: 62px;
+    font-family: 'montserrat', sans-serif ;
+    font-weight: 700px;
+    margin: 14px 0px;
+}
+.text h3{
+    color: black;
+    font-size: 15px;
+    font-family: 'open sans', sans-serif;
+}
+
+.btn{
+    background-color: rgba(255,255,255, 0.164);
+    color: white;
+    font-family: 'montserrat', sans-serif ;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 30px;
+    width: 120px;
+    margin-top: 25px;
+    border: 3px solid rgb(240, 47, 47);
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+.mainimg{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 800px;
+}
+.footer{
+    position: absolute;
+    padding-left:40px;
+    width:1200px;
+    height:100px;
+    background:white;
+    color:black;
+    margin-top: 490px;
+    font-size: 40px;
+    color:rgb(2,2, 9);
+    font-weight: bold;
+    word-spacing: 40px;
+}
+    </style>
+</head>
+<body>
+    <div class="site">
+        <div class="header">
+
+            <div class="leftmenu">
+                <h2> ARSHA </h2>
+            </div>
+
+            <div class="rightmenu">
+                <ul>
+                    <li id="firstlist">Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>Team</li>
+                    <li>Drop Dowm</li>
+                    <li>Contact</li>
+                    <li><button class="btn">Get Started</button></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="content">
+        <div class="text">
+            <h1>Better Solutions For Your Buissness</h1>
+            <h3>We are team  of talented designers making websites with Bootstrap </h3>
+            <button class="btn"> Get Started</button>
+                   <span class="material-icons">
+                 Watch Video
+                </span>
+                
+        </div>
+        <div class="mainimg">
+            <img src="https://www.brainstormindia.com/images/resources/web.jpg" height="300" width="390">
+        </div> 
+        <div class="footer">
+            <ul>
+               myob 
+                BELIMO 
+               <li style="font-style:italic;font-size: 20px";>LifeGroups </li> 
+             <li style="font-style:italic;font-size: 20px"> Lilly</li>
+                Citrus
+                Trustly
+            </ul>
+        </div>
+        </div>
+        </div>
+    </body>
+</html>
